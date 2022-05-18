@@ -1,0 +1,89 @@
+*{
+    margin :0;
+    padding:0;
+}
+.container{
+    max-width : 3000px;
+    margin :0px;
+    overflow : hidden;
+    padding : 0px;
+    height: auto;
+   }
+body{
+    background-image: url(buku.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.middle{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:max-content;
+    text-align: left;
+}
+
+.header{
+    padding : 10px;
+    margin : 10px;
+    background-color: cadetblue;
+    text-align: left;
+    color: aquamarine;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+    height: 50px;
+    border:1px solid #080711;
+   } 
+
+.Menu a{
+    text-align: right;
+    text-decoration: none;
+    color:wheat;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.judul {
+    text-align: left;
+}
+.footer{
+    text-align: center;
+    clear : both;
+    padding : 10px;
+    margin : 10px;
+    margin : 10px;
+    background-color: cadetblue;
+    font-size: 20px;
+    color: wheat;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+
+.middle p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.middle h3{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.middle img{
+    width: 600px;
+    height:400px;  
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black
+}
+
+th, td{
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
